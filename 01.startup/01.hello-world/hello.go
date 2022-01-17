@@ -1,5 +1,9 @@
 // 1. 运行: go run hello.go
+//
 // 2. 不同环境下的编译：
+//    GOOS：目标可执行程序运行操作系统，支持 darwin，freebsd，linux，windows
+//    GOARCH：目标可执行程序操作系统构架，包括 386，amd64，arm
+//
 //    - Mac环境:
 //        - Mac上运行: go build hello.go
 //        - Linux上运行: CGO_ENABLED=0 GOOS=linux GOARCH=amd64 go build hello.go
